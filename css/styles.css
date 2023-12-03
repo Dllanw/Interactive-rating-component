@@ -88,7 +88,7 @@ h1 {
     justify-content: space-between;
     margin-bottom: 1rem;
 }
-.card__rating span{
+.card__rating--btn{
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -102,11 +102,15 @@ h1 {
     border-radius: 50%;
     background-color: var(--Dark-Blue-Light);
 }
+.card__rating--btn:hover {
+    background-color: var(--Orange);
+    color: var(--White);
+}
 .card__button {
     margin-top: 1.5rem;
     text-align: center;
 }
-.card__button button {
+.card__button--btn{
     cursor: pointer;
     border: none;
     font-size: 15px;
@@ -116,5 +120,27 @@ h1 {
     color: var(--White);
     padding: 1rem;
     width: 100%;
+}
+.card__button--btn:hover {
+    background-color: var(--White);
+    color: var(--Orange);
+}
 
+/* JS */
+.star-selected {
+    background-color: var(--Light-Grey);
+    color: var(--White);
+    animation: pulse 0.5s ease;
+}
+/* Animation */
+@keyframes pulse {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-20px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
 }
