@@ -1,4 +1,6 @@
 const stars = document.querySelectorAll(".star");
+const rating = document.querySelector("#rating");
+
 stars.forEach(function(star) { //Iteramos sobre cada elemento
     star.addEventListener("click", function() { 
         //Elimina la clase "star-selected" de todas las estrellas
