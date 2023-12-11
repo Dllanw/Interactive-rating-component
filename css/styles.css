@@ -98,6 +98,7 @@ h1 {
     margin-bottom: 1rem;
 }
 .card__rating--btn{
+    border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -112,6 +113,10 @@ h1 {
     background-color: var(--Dark-Blue-Light);
 }
 .card__rating--btn:hover {
+    background-color: var(--Light-Grey);
+    color: var(--White);
+}
+.card__rating--btn:focus{
     background-color: var(--Orange);
     color: var(--White);
 }
@@ -156,7 +161,7 @@ h1 {
 
 /* THANK-YOU */
 .card__thanyou {
-    display: grid;
+    display: none;
     grid-auto-rows: max-content;
     background: radial-gradient(
         circle at top,
