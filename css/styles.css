@@ -140,12 +140,6 @@ h1 {
     color: var(--Orange);
 }
 
-/* JS */
-.star-selected {
-    background-color: var(--Light-Grey);
-    color: var(--White);
-    animation: pulse 0.5s ease;
-}
 /* Animation */
 @keyframes pulse {
     0%, 20%, 50%, 80%, 100% {
