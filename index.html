@@ -15,31 +15,31 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
-  <main class="card border-radius ">
-    <div class="card__icon border-radius">
-      <img src="images/icon-star.svg" alt="star">
-    </div>
-    <!-- Rating state start -->
-    <div class="card__title">
-      <h1>How did we do?</h1>
-    </div>
-    <div class="card__paragraph">
-      Please let us know how we did with your support request. All feedback is appreciated 
-      to help us improve our offering!
-    </div>
-    <div class="card__rating" id="rating">
-      <button class="card__rating--btn" >1</button>
-      <button class="card__rating--btn" >2</button>
-      <button class="card__rating--btn" >3</button>
-      <button class="card__rating--btn" >4</button>
-      <button class="card__rating--btn" >5</button>
-    </div>
-    <div class="card__button" id="btn">
-      <button class="border-radius card__button--btn"> Submit </button>
+  <main>
+    <div class="card border-radius">
+      <div class="card__icon border-radius">
+        <img src="images/icon-star.svg" alt="star">
+      </div>
+      <!-- Rating state start -->
+      <div class="card__title">
+        <h1>How did we do?</h1>
+      </div>
+      <div class="card__paragraph">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </div>
+      <div class="card__rating" id="rating">
+        <button class="card__rating--btn click" >1</button>
+        <button class="card__rating--btn click" >2</button>
+        <button class="card__rating--btn click" >3</button>
+        <button class="card__rating--btn click" >4</button>
+        <button class="card__rating--btn click" >5</button>
+      </div>
+      <div class="card__button opacity" id="btn">
+        <button class="border-radius card__button--btn"> Submit </button>
+      </div>
     </div>
     <!-- Rating state end -->
 
@@ -60,11 +60,18 @@
     </div>
     <!-- Thank you state end -->
   </main>
-<!--   
+
+ <!-- attribution -->
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    <div>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    </div>
+    <div>
+      Coded by <a href="https://www.frontendmentor.io/profile/Vadam-bias">Dllanw</a>.
+    </div>
+  </div>
+
+  <!-- JS  -->
   <script src="js/main.js"></script>
 </body>
 </html>
